@@ -67,8 +67,6 @@ public class UnityScreenshot : MonoBehaviour
         {
             StartCoroutine(Shoot(cam, prefixFileName + "_Camera_" + cameras.IndexOf(cam).ToString()));
         }
-        Debug.Log("Finished.");
-
     }
 
 
